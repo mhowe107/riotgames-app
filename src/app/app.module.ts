@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { TopNavBarComponent } from './navigation/topnavbar.component';
 import { BottomNavBarComponent } from './navigation/bottomnavbar.component';
 import { MainGameCardComponent } from './games/MainGame.card.component';
+import { SmallGameCardComponent } from './games/SmallGame.card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TopNavBarComponent,
     BottomNavBarComponent,
-    MainGameCardComponent
+    MainGameCardComponent,
+    SmallGameCardComponent
   ],
   imports: [
     BrowserModule
