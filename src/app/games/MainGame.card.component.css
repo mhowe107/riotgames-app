@@ -18,6 +18,9 @@
 .GameCardDescription{
     font-size: 1em;
     font-family: 'Mark Pro',Arial,sans-serif;
+    text-align: left;
+    pointer-events: none;
+    color: white;
 }
 
 .LargeGameCard{
@@ -35,9 +38,11 @@
   }
   
   .card-img {
-    width: 100%;
-    height: 15vw;
-    object-fit: cover;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+    vertical-align: bottom;
+    border: 0;
 }
 
 .card:hover {
