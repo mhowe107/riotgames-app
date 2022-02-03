@@ -1,0 +1,50 @@
+.GameCardContent{
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    pointer-events: none;
+}
+
+.GameCardDescription{
+    font-size: 1em;
+    font-family: 'Mark Pro',Arial,sans-serif;
+}
+
+.LargeGameCard{
+    width: 828px;
+    height: 376px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    font-weight: bold;
+    border-radius: 15px 15px 15px 15px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .card-img {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 white;
+}
+
+.SmallGameCard{
+    width: 545px;
+    height: 248px;    
+}
