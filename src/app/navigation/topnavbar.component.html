@@ -1,24 +1,25 @@
-<nav class="navbar">
+<nav class="navbar navbar-expand sticky-top">
   <div id="navbar">
-    <img src="assets/riotgames.logo.png" alt="">
+    <img src="assets/riotgames.logo.png" class="flex" alt="">
+    <img src="assets/whiteriotfist.png" class="p-8" height="32px"  alt="">
 
-    <li class="dropdown">
-      <a class="dropdown-toggle" data-toggle="dropdown" href="#">WHO WE ARE
+    <li class="nav-item dropdown">
+      <a class="dropdown-toggle" data-toggle="dropdown" id="WhoDropMenu" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">WHO WE ARE
         <span class="caret"></span></a>
-      <ul class="dropdown-menu">
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
+      <ul class="dropdown-menu" aria-labelledby="WhoDropMenu">
+        <li class="nav-item"><a class="nav-link-active" href="#"></a>ABOUT RIOT</li>
+        <li class="nav-item"><a class="nav-link-active" href="#"></a>DIVERSITY AND INCLUSION</li>
+        <li class="nav-item"><a class="nav-link-active" href="#"></a>SOCIAL IMPACT</li>
       </ul>
     </li>
 
-    <li class="dropdown">
-      <a class="dropdown-toggle" data-toggle="dropdown" href="#">WORK WITH US
+    <li class="nav-item dropdown">
+      <a class="dropdown-toggle" data-toggle="dropdown" id="WorkDropMenu" role="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">WORK WITH US
         <span class="caret"></span></a>
-      <ul class="dropdown-menu">
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
-        <li><a href="#"></a></li>
+      <ul class="dropdown-menu" aria-labelledby="WorkDropMenu">
+        <li class="nav-item"><a class="nav-link-active" href="#">JOBS</a></li>
+        <li class="nav-item"><a class="nav-link-active" href="#">OFFICES</a></li>
+        <li class="nav-item"><a class="nav-link-active" href="#">LIFE AT RIOT</a></li>
       </ul>
     </li>
 
@@ -37,7 +38,7 @@
           </span>
         </div>
       </form>
-      <button class="btn btn.signin btn-danger m-4" type="submit">SIGN IN</button>
+      <button class="btn btn.signin btn-danger m-4" type="submit">SIGN IN</button>>
     </div>
   </div>
 </nav>

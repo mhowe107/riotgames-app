@@ -53,3 +53,9 @@ bt.signin {
   height: 50%;
 }
 
+a.nav-link.active{
+  border-bottom-style: solid;
+  border-color: darkred;
+  border-width: 6px;
+  border-radius: 50%;
+}
