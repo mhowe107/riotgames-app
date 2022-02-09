@@ -10,11 +10,9 @@ export class SmallGameCardComponent{
 
     @Input() image: string;
     @Input() logo: string;
-    @Input() description: string;
 
     constructor(){
         this.image="PLACEHOLDER IMAGE"
         this.logo="PLACEHOLDER LOGO"
-        this.description="PLACEHOLDER DESCRIPTION"
     }
 }
