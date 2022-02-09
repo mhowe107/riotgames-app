@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, Input} from "@angular/core";
 
 @Component({
     selector: 'riot-games-main-card',
@@ -7,13 +7,14 @@ import { Component } from "@angular/core";
 })
 
 export class MainGameCardComponent {
-    // @Input() image: string;
-    logo: string;
-    description: string;
+
+    @Input() image: string;
+    @Input() logo: string;
+    @Input() description: string;
 
     constructor(){
-        // this.image="PLACEHOLDER IMAGE"
+        this.image="PLACEHOLDER IMAGE"
         this.logo="PLACEHOLDER LOGO"
-        this.description="Missing Description"
+        this.description="PLACEHOLDER DESCRIPTION"
     }
 }

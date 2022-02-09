@@ -1,4 +1,4 @@
-import { Component } from "@angular/core";
+import { Component, Input } from "@angular/core";
 
 @Component({
     selector: 'riot-games-small-card',
@@ -8,4 +8,13 @@ import { Component } from "@angular/core";
 
 export class SmallGameCardComponent{
 
+    @Input() image: string;
+    @Input() logo: string;
+    @Input() description: string;
+
+    constructor(){
+        this.image="PLACEHOLDER IMAGE"
+        this.logo="PLACEHOLDER LOGO"
+        this.description="PLACEHOLDER DESCRIPTION"
+    }
 }

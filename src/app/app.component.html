@@ -1,7 +1,13 @@
 <riot-topnavbar> Loading... </riot-topnavbar>
 
-<riot-games-main-card>Loading...</riot-games-main-card>
+<div>
+    <div *ngFor="let mainitem of mainitems">
+        <riot-games-main-card image="{{mainitem.image}}">Loading...</riot-games-main-card>
+    </div>
+</div>
 
-<riot-games-small-card>Loading...</riot-games-small-card>
-
-<riot-bottomnavbar> Loading... </riot-bottomnavbar>
+<div>
+    <div *ngFor="let smallitem of smallitems">
+        <riot-games-small-card image="{{smallitem.image}}">Loading...</riot-games-small-card>
+    </div>
+</div>
