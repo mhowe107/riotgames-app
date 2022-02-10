@@ -4,3 +4,5 @@ Main Features:
     3. Added ngFor loop to iterate through mock database and push attributes to display. 
     4. Integrated data binding to main and small card html files. 
     4. Updated app.component.html to display multiple cards based off of database.
+
+    To display ability to create multiple cards with the loop, added more smallgamecards. 

@@ -2,13 +2,13 @@
 
 <div>
     <div *ngFor="let mainitem of mainitems">
-        <riot-games-main-card image="{{mainitem.image}}">Loading...</riot-games-main-card>
+        <riot-games-main-card image={{mainitem.image}} logo={{mainitem.logo}} description={{mainitem.description}}>Loading...</riot-games-main-card>
     </div>
 </div>
 
 <div>
     <div *ngFor="let smallitem of smallitems">
-        <riot-games-small-card image="{{smallitem.image}}">Loading...</riot-games-small-card>
+        <riot-games-small-card image={{smallitem.image}} logo={{smallitem.logo}}>Loading...</riot-games-small-card>
     </div>
 </div>
 
