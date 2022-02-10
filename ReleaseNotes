@@ -1,0 +1,6 @@
+Main Features:
+    1. Added Main and Small card lists/mock databases.
+    2. Added mainitem.model.ts, which allows for quick creation of cards based on input image, logo, and description (main only).
+    3. Added ngFor loop to iterate through mock database and push attributes to display. 
+    4. Integrated data binding to main and small card html files. 
+    4. Updated app.component.html to display multiple cards based off of database.
