@@ -41,7 +41,7 @@
   padding-top: 60px;
 }   
 
-a:hover{
+a:hover {
   background-color: g;
 }
 
@@ -49,6 +49,7 @@ a:hover{
   color: #111;
   border-radius: 1.6rem;
   font-size: 12px;
+  font-weight: bolder;
   padding-right: 22.4;
   padding-left: 22.4;
   padding-right: 9.6;
@@ -57,15 +58,36 @@ a:hover{
   margin-bottom: 20;
 }
 
-a.nav-link.active{
+a.nav-link.active {
   border-bottom-style: solid;
   border-color: darkred;
   border-width: 6px;
   border-radius: 50%;
 }
 
-.riotgames-logo{
+.riotgames-logo {
   opacity: 1;
   margin-left: 18px;
   height: 80px;
+}
+
+.dropdown-item {
+  display: inline-block;
+  padding: 8px 16px;
+  border: none;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 16px;
+
+  text-align: left;
+  color: black; /* Later should be adjusted when background is made */
+}
+
+.dropdown.toggle {
+  padding: 7.5px 16px;
+  text-align: center;
+  margin-right: 4px;
 }
