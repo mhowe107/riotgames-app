@@ -45,12 +45,16 @@ a:hover{
   background-color: g;
 }
 
-bt.signin {
+.signin {
   color: #111;
-  outline-style: solid;
-  outline-color: black;
-  border-radius: 50%;
-  height: 50%;
+  border-radius: 1.6rem;
+  font-size: 12px;
+  padding-right: 22.4;
+  padding-left: 22.4;
+  padding-right: 9.6;
+  padding-right: 9.6;
+  margin-top: 18;
+  margin-bottom: 20;
 }
 
 a.nav-link.active{
@@ -58,4 +62,10 @@ a.nav-link.active{
   border-color: darkred;
   border-width: 6px;
   border-radius: 50%;
+}
+
+.riotgames-logo{
+  opacity: 1;
+  margin-left: 18px;
+  height: 80px;
 }
