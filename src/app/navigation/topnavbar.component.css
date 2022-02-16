@@ -42,7 +42,7 @@
 }   
 
 a:hover {
-  background-color: g;
+  background-color: #d1363a;
 }
 
 .signin {
@@ -87,6 +87,12 @@ a.nav-link.active {
 }
 
 .dropdown.toggle {
+  padding: 7.5px 16px;
+  text-align: center;
+  margin-right: 4px;
+}
+
+.topnav-item {
   padding: 7.5px 16px;
   text-align: center;
   margin-right: 4px;
