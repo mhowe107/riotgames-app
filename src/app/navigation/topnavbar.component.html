@@ -1,15 +1,15 @@
 <nav class="navbar navbar-expand sticky-top">
   <div id="navbar">
-    <img src="assets/riotgames.logo.png" class="flex riotgames-logo">
-    <img src="assets/blackriotfist.png" class="p-8" height="32px">
+    <img src="assets/riotgames.logo.png" class="riotgames-logo">
+    <img src="assets/blackriotfist.png">
 
-    <li class="nav-item dropdown topnav-item">
+    <li class="nav-item dropdown topnav-item"> 
       <a class="dropdown-toggle" data-toggle="dropdown" id="WhoDropMenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">WHO WE ARE
         <span class="caret"></span></a>
       <ul class="dropdown-menu" aria-labelledby="WhoDropMenu">
-        <li><a class="nav-link-active dropdown-item">ABOUT RIOT</a></li>
-        <li><a class="nav-link-active dropdown-item">DIVERSITY & INCLUSION</a></li>
-        <li><a class="nav-link-active dropdown-item">SOCIAL IMPACT</a></li>
+        <li><a class="nav-link-active dropdown-item" routerLink="about-riot">ABOUT RIOT</a></li>
+        <li><a class="nav-link-active dropdown-item" routerLink="diversity&inclusion">DIVERSITY & INCLUSION</a></li>
+        <li><a class="nav-link-active dropdown-item" routerLink="social-impact">SOCIAL IMPACT</a></li>
       </ul>
     </li>
 
@@ -17,13 +17,13 @@
       <a class="dropdown-toggle" data-toggle="dropdown" id="WorkDropMenu" role="button" data-bs-toggle="dropdown" aria-expanded="false">WORK WITH US
         <span class="caret"></span></a>
       <ul class="dropdown-menu" aria-labelledby="WorkDropMenu">
-        <li><a class="nav-link-active dropdown-item">JOBS</a></li>
-        <li><a class="nav-link-active dropdown-item">OFFICES</a></li>
-        <li><a class="nav-link-active dropdown-item">LIFE AT RIOT</a></li>
+        <li><a class="nav-link-active dropdown-item" routerLink="jobs">JOBS</a></li>
+        <li><a class="nav-link-active dropdown-item" routerLink="offices">OFFICES</a></li>
+        <li><a class="nav-link-active dropdown-item" routerLink="life-at-riot">LIFE AT RIOT</a></li>
       </ul>
     </li>
 
-    <a class="topnav-item">News</a>
+    <a class="topnav-item" routerLink="news">News</a>
 
     <img src="assets/globe2.svg" alt="">
 
