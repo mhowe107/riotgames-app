@@ -6,13 +6,13 @@ import { SmallItemModel } from "./smallitem.model";
 
 @Component({
     selector: 'riot-home-layout',
-    templateUrl: 'home-layout.component.html'
+    templateUrl: 'home-layout.component.html',
+    styleUrls: ['./home-layout.component.css']
 })
 
 export class HomeLayoutComponent {
     mainitems: MainItemModel [] = [];
     smallitems: SmallItemModel [] = [];
-  
 
   constructor() {
 
