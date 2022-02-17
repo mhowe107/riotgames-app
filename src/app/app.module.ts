@@ -15,6 +15,8 @@ import { HomeLayoutComponent } from './games/home-layout.component';
 import { NewsLayoutComponent } from './games/news-layout.component';
 import { SecurityLayoutComponent } from './games/security-layout.component';
 import { LegalLayoutComponent } from './games/legal-layout.component';
+import { AboutRiotLayoutComponent } from './games/aboutriot-layout.component';
+import { JobsLayoutComponent } from './games/jobs-layout.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +29,8 @@ import { LegalLayoutComponent } from './games/legal-layout.component';
     NewsLayoutComponent,
     LegalLayoutComponent,
     SecurityLayoutComponent,
+    AboutRiotLayoutComponent,
+    JobsLayoutComponent,
   ],
 
   imports: [

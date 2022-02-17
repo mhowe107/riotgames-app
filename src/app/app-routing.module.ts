@@ -5,6 +5,8 @@ import { NewsLayoutComponent } from './games/news-layout.component';
 import { HomeLayoutComponent } from './games/home-layout.component';
 import { LegalLayoutComponent } from './games/legal-layout.component';
 import { SecurityLayoutComponent } from './games/security-layout.component';
+import { AboutRiotLayoutComponent } from './games/aboutriot-layout.component';
+import { JobsLayoutComponent } from './games/jobs-layout.component';
 
 const routes: Routes = [
   {
@@ -18,6 +20,12 @@ const routes: Routes = [
   },
   {
     path: 'security', component: SecurityLayoutComponent
+  },
+  {
+    path: 'about-riot', component: AboutRiotLayoutComponent
+  },
+  {
+    path: 'jobs', component: JobsLayoutComponent
   },
 ];
 
