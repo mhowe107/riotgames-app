@@ -11,7 +11,8 @@ import { SmallItemModel } from "./smallitem.model";
 
 export class HomeLayoutComponent {
     mainitems: MainItemModel [] = [];
-  smallitems: SmallItemModel [] = [];
+    smallitems: SmallItemModel [] = [];
+  
 
   constructor() {
 

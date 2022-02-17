@@ -62,6 +62,7 @@ a.nav-link.active {
   border-color: darkred;
   border-width: 6px;
   border-radius: 50%;
+  color: black;
 }
 
 .riotgames-logo {
@@ -80,9 +81,8 @@ a.nav-link.active {
   font-size: 13px;
   font-weight: 500;
   line-height: 16px;
-
-  text-align: left;
-  color: black; /* Later should be adjusted when background is made */
+  text-align: center;
+  color: black !important;
 }
 
 .dropdown.toggle {
@@ -95,4 +95,8 @@ a.nav-link.active {
   padding: 7.5px 16px;
   text-align: center;
   margin-right: 4px;
+}
+
+.ddm{
+  color:blueviolet;
 }
