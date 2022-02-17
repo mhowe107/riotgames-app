@@ -14,15 +14,4 @@ export class AppComponent {
   mainitems: MainItemModel [] = [];
   smallitems: SmallItemModel [] = [];
 
-  constructor() {
-
-    for(var mainitem of mock_maincard_list){
-      this.mainitems.push(mainitem);
-    }
-
-    for(var smallitem of mock_smallcard_list){
-      this.smallitems.push(smallitem);
-    }
-
-  }
 }

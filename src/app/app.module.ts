@@ -6,6 +6,9 @@ import { TopNavBarComponent } from './navigation/topnavbar.component';
 import { BottomNavBarComponent } from './navigation/bottomnavbar.component';
 import { MainGameCardComponent } from './games/MainGame.card.component';
 import { SmallGameCardComponent } from './games/SmallGame.card.component';
+import { AppRoutingModule } from './app-routing.module';
+import { NewsLayoutComponent } from './games/news-layout.component';
+import { HomeLayoutComponent } from './games/home-layout.component';
 
 @NgModule({
   declarations: [
@@ -13,12 +16,18 @@ import { SmallGameCardComponent } from './games/SmallGame.card.component';
     TopNavBarComponent,
     BottomNavBarComponent,
     MainGameCardComponent,
-    SmallGameCardComponent
+    SmallGameCardComponent,
+    NewsLayoutComponent,
+    HomeLayoutComponent
   ],
+
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
+
   providers: [],
+
   bootstrap: [AppComponent]
 })
 export class AppModule { }
