@@ -1,8 +1,5 @@
 Main Features:
-    1. Added Main and Small card lists/mock databases.
-    2. Added mainitem.model.ts, which allows for quick creation of cards based on input image, logo, and description (main only).
-    3. Added ngFor loop to iterate through mock database and push attributes to display. 
-    4. Integrated data binding to main and small card html files. 
-    4. Updated app.component.html to display multiple cards based off of database.
-
-    To display ability to create multiple cards with the loop, added more smallgamecards. 
+    1. Components for new pages (Home, News, Legal, Security, Jobs, About-Riot)
+    2. Routing to new pages (See above)
+[Bonus?]    3. LOTS of navbar updates to clean up old navbar. (Dropdown fixes, addition of and implementation of links, color on hover)
+ 

@@ -1,6 +1,4 @@
 import { Component } from '@angular/core';
-import { MainItemModel } from './games/mainitem.model';
-import { SmallItemModel } from './games/smallitem.model';
 
 @Component({
   selector: 'app-root',

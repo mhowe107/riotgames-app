@@ -2,13 +2,19 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
+
 import { TopNavBarComponent } from './navigation/topnavbar.component';
 import { BottomNavBarComponent } from './navigation/bottomnavbar.component';
+
 import { MainGameCardComponent } from './games/MainGame.card.component';
 import { SmallGameCardComponent } from './games/SmallGame.card.component';
+
 import { AppRoutingModule } from './app-routing.module';
-import { NewsLayoutComponent } from './games/news-layout.component';
+
 import { HomeLayoutComponent } from './games/home-layout.component';
+import { NewsLayoutComponent } from './games/news-layout.component';
+import { SecurityLayoutComponent } from './games/security-layout.component';
+import { LegalLayoutComponent } from './games/legal-layout.component';
 
 @NgModule({
   declarations: [
@@ -17,8 +23,10 @@ import { HomeLayoutComponent } from './games/home-layout.component';
     BottomNavBarComponent,
     MainGameCardComponent,
     SmallGameCardComponent,
+    HomeLayoutComponent,
     NewsLayoutComponent,
-    HomeLayoutComponent
+    LegalLayoutComponent,
+    SecurityLayoutComponent,
   ],
 
   imports: [

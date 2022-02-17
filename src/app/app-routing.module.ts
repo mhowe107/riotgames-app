@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { Router, RouterModule, Routes } from '@angular/router';
 import { NewsLayoutComponent } from './games/news-layout.component';
 import { HomeLayoutComponent } from './games/home-layout.component';
+import { LegalLayoutComponent } from './games/legal-layout.component';
+import { SecurityLayoutComponent } from './games/security-layout.component';
 
 const routes: Routes = [
   {
@@ -10,7 +12,13 @@ const routes: Routes = [
   },
   {
     path: 'news', component: NewsLayoutComponent
-  }
+  },
+  {
+    path: 'legal', component: LegalLayoutComponent
+  },
+  {
+    path: 'security', component: SecurityLayoutComponent
+  },
 ];
 
 @NgModule({
