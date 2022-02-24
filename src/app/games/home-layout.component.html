@@ -1,14 +1,15 @@
 <div class="gamecard-container maingamecard-container">
-    <div>
-        <div *ngFor="let mainitem of mainitems">
-            <riot-games-main-card image={{mainitem.image}} logo={{mainitem.logo}} description={{mainitem.description}}>Loading...</riot-games-main-card>
+    <div class="row">
+        <div class="col-6" *ngFor="let mainitem of mainitems">
+            <riot-games-main-card image={{mainitem.image}} logo={{mainitem.logo}} description={{mainitem.description}}>
+                Loading...</riot-games-main-card>
         </div>
     </div>
 </div>
 
 <div class="gamecard-container smallgamecard-container">
-    <div>
-        <div *ngFor="let smallitem of smallitems">
+    <div class="row">
+        <div class="col-4" *ngFor="let smallitem of smallitems">
             <riot-games-small-card image={{smallitem.image}} logo={{smallitem.logo}}>Loading...</riot-games-small-card>
         </div>
     </div>
