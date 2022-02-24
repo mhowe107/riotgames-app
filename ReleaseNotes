@@ -1,5 +1,7 @@
 Main Features:
-    1. Components for new pages (Home, News, Legal, Security, Jobs, About-Riot)
-    2. Routing to new pages (See above)
-[Bonus?]    3. LOTS of navbar updates to clean up old navbar. (Dropdown fixes, addition of and implementation of links, color on hover)
- 
+    1. Components for Legal Layout (Header, Picture, Entire Page [Bonus?])
+    2. Components for Jobs (4 Cards with loop, University Card, Positions list with Loop, Header)
+
+    Bonus-
+        1. Flex class for Home components 
+        2. 

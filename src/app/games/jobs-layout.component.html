@@ -1,1 +1,10 @@
-<h1>JOBS PAGE</h1>
+<h2>Team up with Riot to forge your path and craft unforgettable experiences for players. </h2>
+
+<riot-games-university-card></riot-games-university-card>
+
+<div>
+    <div *ngFor="let job of jobs">
+        <riot-games-job-position title={{job.title}} craft={{job.craft}} team={{job.team}} office={{job.office}}>
+            Loading...</riot-games-job-position>
+    </div>
+</div>

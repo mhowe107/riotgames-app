@@ -1,4 +1,6 @@
 import { Component } from "@angular/core";
+import { JobPositionModel } from "./job-position.model";
+import { mock_job_list } from "./mock-job-position-list";
 
 @Component({
     selector: 'riot-jobs-layout',
@@ -6,5 +8,13 @@ import { Component } from "@angular/core";
 })
 
 export class JobsLayoutComponent {
+    jobs: JobPositionModel[] = [];
 
+    constructor() {
+
+        for (var job of mock_job_list) {
+            this.jobs.push(job);
+        }
+
+    }
 }

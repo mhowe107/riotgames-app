@@ -14,7 +14,7 @@ export class MainGameCardComponent {
 
     constructor(){
         this.image="PLACEHOLDER IMAGE"
-        this.logo="PLACEHOLDER LOGO" //This is overwriting the desired logo
-        this.description="PLACEHOLDER DESCRIPTION" //This is overwriting the desired description
+        this.logo="PLACEHOLDER LOGO"
+        this.description="PLACEHOLDER DESCRIPTION"
     }
 }

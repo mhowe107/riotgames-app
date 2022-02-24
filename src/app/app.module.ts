@@ -18,6 +18,9 @@ import { LegalLayoutComponent } from './games/legal-layout.component';
 import { AboutRiotLayoutComponent } from './games/aboutriot-layout.component';
 import { JobsLayoutComponent } from './games/jobs-layout.component';
 
+import { JobPositionComponent } from './games/job-position.component';
+import { UniversityCardComponent } from './games/jobs.university.card.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,6 +34,8 @@ import { JobsLayoutComponent } from './games/jobs-layout.component';
     SecurityLayoutComponent,
     AboutRiotLayoutComponent,
     JobsLayoutComponent,
+    JobPositionComponent,
+    UniversityCardComponent
   ],
 
   imports: [
