@@ -20,6 +20,7 @@ import { JobsLayoutComponent } from './games/jobs-layout.component';
 
 import { JobPositionComponent } from './games/job-position.component';
 import { UniversityCardComponent } from './games/jobs.university.card.component';
+import { JobsInfoCardComponent } from './games/jobs.info.card.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +36,8 @@ import { UniversityCardComponent } from './games/jobs.university.card.component'
     AboutRiotLayoutComponent,
     JobsLayoutComponent,
     JobPositionComponent,
-    UniversityCardComponent
+    UniversityCardComponent,
+    JobsInfoCardComponent,
   ],
 
   imports: [
