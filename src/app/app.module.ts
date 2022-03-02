@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http'
 
 import { AppComponent } from './app.component';
 
@@ -21,6 +22,7 @@ import { JobsLayoutComponent } from './games/jobs-layout.component';
 import { JobPositionComponent } from './games/job-position.component';
 import { UniversityCardComponent } from './games/jobs.university.card.component';
 import { JobsInfoCardComponent } from './games/jobs.info.card.component';
+import { UserInfoComponent } from './user-info/user-info.component';
 
 @NgModule({
   declarations: [
@@ -38,11 +40,13 @@ import { JobsInfoCardComponent } from './games/jobs.info.card.component';
     JobPositionComponent,
     UniversityCardComponent,
     JobsInfoCardComponent,
+    UserInfoComponent,
   ],
 
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
 
   providers: [],
