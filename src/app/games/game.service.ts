@@ -7,15 +7,19 @@ import { MainItemModel } from "./mainitem.model";
 })
 
 export class GameService {
-    private baseUrl:string = '';
-    private gamesEndPoint:string = 'products.json';
+    private baseUrl:string = 'https://riotgames-app-default-rtdb.firebaseio.com/';
+    private gamesEndPoint:string = 'games.json';
 
-    constructor() {
+    constructor(private http:HttpClient) {
         
     }
 
 public getGames() {
     return this.http.get<MainItemModel []>(this.baseUrl + this.gamesEndPoint);
+}
+
+public getGame(index:number) {
+    return this.http.get<MainItemModel []>(this.baseUrl + 'games/' + index +'.json');
 }
 
 }
