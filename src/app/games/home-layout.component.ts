@@ -17,10 +17,6 @@ export class HomeLayoutComponent implements OnInit {
 
   constructor(private service: GameService) {
 
-    for (var mainitem of mock_maincard_list) {
-      this.mainitems.push(mainitem);
-    }
-
     for (var smallitem of mock_smallcard_list) {
       this.smallitems.push(smallitem);
     }
@@ -30,6 +26,9 @@ export class HomeLayoutComponent implements OnInit {
     console.log("Fetch data");
     this.service.getGames().subscribe(data => {
       console.log(data);
+      for (var mainitem of mock_maincard_list) {
+        this.mainitems.push(mainitem);
+      }
     });
   }
 
