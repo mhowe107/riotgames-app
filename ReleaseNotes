@@ -1,6 +1,9 @@
 Main Features:
-    1. Added Backend Server
-    2. Added UserInfo Display on top of page
+    1. Added MainGameCard mock list data to the Firebase backend.
+    2. Added GameService methods getGames() and getGame(index) to pull from backend to home-layout for display
+    3. Removed the ngFor loop so MainGameCards did not display twice
+    4. Updated HTTP imports in App.module
+    5. Added ngOnInit method, updated constructor in home-layout
 
-    Bonus-
+    Bonus- 
         
