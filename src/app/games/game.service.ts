@@ -1,4 +1,4 @@
-import { HttpClient } from "@angular/common/http";
+import { AngularFireDatabase } from '@angular/fire/compat/database';
 import { Injectable } from "@angular/core";
 import { MainItemModel } from "./mainitem.model";
 
@@ -7,19 +7,17 @@ import { MainItemModel } from "./mainitem.model";
 })
 
 export class GameService {
-    private baseUrl:string = 'https://riotgames-app-default-rtdb.firebaseio.com/';
-    private gamesEndPoint:string = 'games.json';
 
-    constructor(private http:HttpClient) {
+    constructor(private db:AngularFireDatabase) {
         
     }
 
 public getGames() {
-    return this.http.get<MainItemModel []>(this.baseUrl + this.gamesEndPoint);
+    return this.db.list<MainItemModel>("games").valueChanges();
 }
 
-public getGame(index:number) {
-    return this.http.get<MainItemModel []>(this.baseUrl + 'games/' + index +'.json');
-}
+// public getGame(index:number) {
+//     return this.db.list("games", ref => ref.orderByChild("price").startAt(10)).valueChanges(); //price is not applicable to my code
+// }
 
 }

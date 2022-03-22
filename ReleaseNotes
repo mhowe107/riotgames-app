@@ -1,9 +1,12 @@
 Main Features:
-    1. Added MainGameCard mock list data to the Firebase backend.
-    2. Added GameService methods getGames() and getGame(index) to pull from backend to home-layout for display
-    3. Removed the ngFor loop so MainGameCards did not display twice
-    4. Updated HTTP imports in App.module
-    5. Added ngOnInit method, updated constructor in home-layout
-
+    1. Updated error size in angular.json
+    2. Installed Firebase
+    3. Configured Firebase for hosting
+    4. Deployed WebApp
+    5. Installed and configured Angular Fire
+    6. Imported Angular FireStore and FireStore module
+    7. Refactored database reading to show Games
+    8. 
+    
     Bonus- 
         
