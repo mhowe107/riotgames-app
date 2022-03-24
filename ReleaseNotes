@@ -1,12 +1,8 @@
 Main Features:
-    1. Updated error size in angular.json
-    2. Installed Firebase
-    3. Configured Firebase for hosting
-    4. Deployed WebApp
-    5. Installed and configured Angular Fire
-    6. Imported Angular FireStore and FireStore module
-    7. Refactored database reading to show Games
-    8. 
-    
+    1. Admin page allows for additional cards to be added to database
+    2. Updated imports in app.module.ts to allow routing
+    3. Added routing to new Admin page
+    4. Updated game.service.ts to include addGame(), which pushes new card data to database
+
     Bonus- 
         

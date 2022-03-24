@@ -29,6 +29,8 @@ import { provideDatabase,getDatabase } from '@angular/fire/database';
 
 import { AngularFireModule } from '@angular/fire/compat';
 import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
+import { AddGamesComponent } from './games/add-games/add-games.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -47,6 +49,7 @@ import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
     UniversityCardComponent,
     JobsInfoCardComponent,
     UserInfoComponent,
+    AddGamesComponent,
   ],
 
   imports: [
@@ -55,6 +58,7 @@ import { AngularFirestoreModule } from '@angular/fire/compat/firestore';
     HttpClientModule,
     AngularFireModule.initializeApp(environment.firebase),
     AngularFirestoreModule,
+    FormsModule,
   ],
 
   providers: [],

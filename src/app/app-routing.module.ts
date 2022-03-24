@@ -7,6 +7,7 @@ import { LegalLayoutComponent } from './games/legal-layout.component';
 import { SecurityLayoutComponent } from './games/security-layout.component';
 import { AboutRiotLayoutComponent } from './games/aboutriot-layout.component';
 import { JobsLayoutComponent } from './games/jobs-layout.component';
+import { AddGamesComponent } from './games/add-games/add-games.component';
 
 const routes: Routes = [
   {
@@ -26,6 +27,9 @@ const routes: Routes = [
   },
   {
     path: 'jobs', component: JobsLayoutComponent
+  },
+  {
+    path: 'admin', component: AddGamesComponent
   },
 ];
 
