@@ -8,6 +8,7 @@ import { SecurityLayoutComponent } from './games/security-layout.component';
 import { AboutRiotLayoutComponent } from './games/aboutriot-layout.component';
 import { JobsLayoutComponent } from './games/jobs-layout.component';
 import { AddGamesComponent } from './games/add-games/add-games.component';
+import { AuthenticationComponent } from './auth/authentication/authentication.component';
 
 const routes: Routes = [
   {
@@ -30,6 +31,9 @@ const routes: Routes = [
   },
   {
     path: 'admin', component: AddGamesComponent
+  },
+  {
+    path: 'auth', component: AuthenticationComponent
   },
 ];
 

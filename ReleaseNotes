@@ -1,8 +1,8 @@
 Main Features:
-    1. Admin page allows for additional cards to be added to database
-    2. Updated imports in app.module.ts to allow routing
-    3. Added routing to new Admin page
-    4. Updated game.service.ts to include addGame(), which pushes new card data to database
+    1. Added Authentication Components and routing
+    2. Added Login and Sign Up forms/buttons
+    3. Added Sign Up functionality, linking to Firebase
+    4. Added user email/password validation
 
     Bonus- 
         
